@@ -56,8 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Editor\Tools\SymbolEditor.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Editor\Tools\PrefabUtil.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Editor\Tools\SymbolEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Editor\Tools\QFSW.QC.Editor.Tools.asmdef" />
@@ -339,6 +339,9 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="mcs">
+      <HintPath>Assets\Plugins\QFSW\Quantum Console\Source\Extras\exec\CSharpCompiler\Plugins\mcs.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -362,9 +365,6 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="mcs">
-      <HintPath>Assets\Plugins\QFSW\Quantum Console\Source\Extras\exec\CSharpCompiler\Plugins\mcs.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

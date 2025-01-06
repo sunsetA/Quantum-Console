@@ -56,92 +56,92 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\ModifierKeyCombo.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\BasicQcSerializer.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\Log.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\SuggestionDisplay.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\ColorExtensions.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Async.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\LogQueue.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\GenericQcSerializer.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ActionState.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\InputHelper.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\SupportedState.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ActionContext.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\BasicQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\TypeFormatter.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\ILogStorage.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\IQcGrammarConstruct.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumConsole.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Platform.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\ILogQueue.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandPrefixAttribute.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Typewriter.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\MonoTargetType.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\Exceptions\ParserException.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\InvocationTargetFactory.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumMacros.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandParameterDescriptionAttribute.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\RemoveLog.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Pool.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\InjectionLoader.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\QuantumSerializer.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Preprocessing\IQcPreprocessor.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\IQcSerializer.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Containers\ArraySingle.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\QuantumParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Internal\FieldDelegateMethod.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\CollectionExtensions.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Internal\FieldMethod.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitFrame.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\GenericCachedQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumConsoleCommands.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Comparators\AlphanumComparator.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\ILog.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\GenericQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\BasicQcSerializer.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Preprocessing\QuantumPreprocessor.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\LoggingThreshold.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumTheme.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\PolymorphicQcSerializer.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Internal\CustomParameter.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\ReflectionExtensions.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\TextProcessing.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\GameObjectExtensions.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\BasicCachedQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\ILogStorage.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\StringExtensions.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\LogStorage.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\IQcGrammarConstruct.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\Log.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Composite.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\CommandData.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandPlatformAttribute.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitUntil.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\ConcurrentPool.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ActionExecuter.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Wait.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\SortOrder.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumRegistry.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\GetKey.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Containers\StringContainer.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumConsole.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\AutoScrollOptions.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\SuggestionDisplay.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\IQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\PolymorphicQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\QcIgnoreAttribute.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitKey.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumKeyConfig.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\LogTypeExtensions.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\MassGenericQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandAttribute.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\TextProcessing.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\CommandData.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Custom.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ICommandAction.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\SupportedState.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Pool.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandParameterDescriptionAttribute.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\ILog.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\AutoScrollOptions.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\PolymorphicQcParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Choice.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\Exceptions\ParserInputException.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitWhile.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ActionContext.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\TypeFormatter.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\InvocationTargetFactory.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Internal\FieldDelegateMethod.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\PolymorphicQcSerializer.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Composite.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumRegistry.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Internal\FieldAutoMethod.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandDescriptionAttribute.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\PolymorphicCachedQcParser.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Choice.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Value.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\Exceptions\ParserInputException.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\GetContext.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitWhile.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumConsoleProcessor.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ICommandAction.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandPrefixAttribute.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\LogStorage.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\ConcurrentPool.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\GetKey.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Async.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\GenericQcSerializer.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumMacros.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\IQcParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\ModifierKeyCombo.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ActionState.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandPlatformAttribute.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Wait.cs" />
     <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitRealtime.cs" />
-    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Platform.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Logging\LogQueue.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\MonoTargetType.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\InjectionLoader.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\GenericQcParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\GameObjectExtensions.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitKey.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumKeyConfig.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\RemoveLog.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Internal\FieldMethod.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Containers\StringContainer.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\MassGenericQcParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\CommandAttribute.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\GetContext.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Typewriter.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Attributes\QcIgnoreAttribute.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\InputHelper.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\BasicQcParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\Exceptions\ParserException.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\QuantumParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\StringExtensions.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitUntil.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Core\ActionExecuter.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\Value.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumConsoleProcessor.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumConsoleCommands.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\LoggingThreshold.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\BasicCachedQcParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Serialization\QuantumSerializer.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Preprocessing\IQcPreprocessor.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\CollectionExtensions.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Actions\WaitFrame.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Preprocessing\QuantumPreprocessor.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Internal\CustomParameter.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\GenericCachedQcParser.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\QuantumTheme.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Utilities\ReflectionExtensions.cs" />
+    <Compile Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\Parsing\PolymorphicCachedQcParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\QFSW\Quantum Console\Source\Scripts\link.xml" />
@@ -418,6 +418,9 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="mcs">
+      <HintPath>Assets\Plugins\QFSW\Quantum Console\Source\Extras\exec\CSharpCompiler\Plugins\mcs.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -441,9 +444,6 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="mcs">
-      <HintPath>Assets\Plugins\QFSW\Quantum Console\Source\Extras\exec\CSharpCompiler\Plugins\mcs.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

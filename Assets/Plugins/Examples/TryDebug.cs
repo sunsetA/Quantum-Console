@@ -21,7 +21,6 @@ public class TryDebug : MonoBehaviour
     [Command]
     public void SubmitData(int data) 
     {
-
         Debug.LogFormat("Origin data is {0} ,new data is {1}",m_data,data);
         m_data = data;
     }
