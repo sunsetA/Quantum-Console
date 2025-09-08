@@ -92,84 +92,30 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ExtrapolationCamera.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ActorSpawner.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\AddRandomVelocity.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ColorFromVelocity.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\DebugParticleFrames.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\CollisionEventHandler.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\WrapRopeGameController.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\FPSDisplay.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObjectDragger.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\CharacterController\SampleCharacterController.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObjectLimit.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\SnakeController.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RuntimeRopeGeneratorUse.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\CharacterControl2D.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\Wrappable.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\CharacterController\ObiCharacter.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeBetweenTwoPoints.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\Blinker.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeSweepCut.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\SpiralCurve.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\GrapplingHook.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\WrapRopePlayerController.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObiParticleCounter.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\LookAroundCamera.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeTensionColorizer.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeNet.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\CursorController.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ActorCOMTransform.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\SlowmoToggler.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ColorRandomizer.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\CraneController.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\MoveAndRotate.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RuntimeRopeGenerator.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RopeTenser.cs" />
-    <Compile Include="Assets\Obi\Samples\RopeAndRod\SampleResources\Scripts\RobotArmController.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ColorFromPhase.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ColliderHighlighter.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\ObiActorTeleport.cs" />
-    <Compile Include="Assets\Obi\Samples\Common\SampleResources\Scripts\WorldSpaceGravity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\ParticleShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\URP\ObiLightingURP.cginc" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\Obi\Plugins\x86_64\libOni.dll" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\ObiLightingBuiltIn.cginc" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\DistanceFieldSlice.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\StandardVertexColors.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\SimpleParticleShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\ObiEllipsoids.cginc" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\URP\ParticleShaderURP.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\URP\SimpleParticleShaderURP.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Obi\Plugins\x86\libOni.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Obi\CHANGELOG_rope.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Obi\Plugins\libOni.bundle\Contents\Resources\CMakeLists.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Obi\Resources\ObiMaterials\ObiUtils.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
@@ -804,98 +750,67 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{C4FE1E7B-38A5-56CB-9574-99FCF775CF58}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="QFSW.QC.QGUI.csproj">
-      <Project>{A32B9A89-F651-9D2E-90A2-82B469F6E1B0}</Project>
-      <Name>QFSW.QC.QGUI</Name>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{1A6305F1-A03E-47AE-4089-C0ED0E08119D}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{ECC81AF7-D5BF-0A2B-347F-EF9C20D9D681}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{411636AB-7D62-FA20-C42C-DEC7F67E2FE3}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{970FE445-9000-25CB-65DB-799FBCA7B872}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{CF54BEB1-A3C0-33D4-755B-F28743A3C971}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{7F58A157-3FC1-2F97-28E7-4F9C109A3DDE}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Serializers.csproj">
       <Project>{F0C97489-8BF8-ABCE-282A-D02E7E758CD1}</Project>
       <Name>QFSW.QC.Serializers</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{467BB7E7-7D04-C4C4-72B4-9F48380001C7}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{14880561-1801-99BF-852C-806EB53058C1}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{16A84A82-4CBB-2A60-E381-F0DD914ACE2D}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{E9673604-CBA7-6DF7-39AB-4EBEF24E223B}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{CF4FB939-B190-174D-7AFE-ABD6099C41DD}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="QFSW.QC.Grammar.csproj">
       <Project>{BDED7B48-248F-877C-AEA0-FF46F1869126}</Project>
       <Name>QFSW.QC.Grammar</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.QGUI.csproj">
+      <Project>{A32B9A89-F651-9D2E-90A2-82B469F6E1B0}</Project>
+      <Name>QFSW.QC.QGUI</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.csproj">
       <Project>{BEBABA62-A029-78C7-CE8D-8ABFE686622A}</Project>
@@ -905,9 +820,45 @@
       <Project>{94EAE397-5564-79DE-7955-9C92E925A724}</Project>
       <Name>QFSW.QC.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{20C714BF-CA76-D396-14FB-519C230D53E2}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{CDC2C5B2-530D-0536-6800-43A98E2C5866}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{29DCD08B-0E87-F2B0-28E6-3F9CBB65ED34}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{897B6205-8FA1-1BF6-443D-86129FFE4A38}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{29F86950-C3C2-A411-9AA5-E632A6DEFD66}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{8CCB13C1-5292-57D1-D101-5602C65B7E26}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="QFSW.QC.Parsers.csproj">
       <Project>{7368C0E6-EA13-D6B7-FA08-D41B05B74000}</Project>
       <Name>QFSW.QC.Parsers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{17940A11-0546-7EA4-D75D-374A3446B390}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{1546298A-A981-B083-A51C-B4B17552DEF4}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{65168820-389D-0358-E349-1DEB517B45E2}</Project>
+      <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="QFSW.QC.Editor.csproj">
       <Project>{F40B4F5A-FDED-752D-313B-67C979A9B1C8}</Project>
@@ -917,6 +868,18 @@
       <Project>{538E71BF-7D84-C313-826D-041A8F22C128}</Project>
       <Name>QFSW.QC.Editor.Tools</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{CE35EE2D-B19D-0405-EBF7-DF595FBFFB95}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{DE5CE5F5-C6B7-ACD9-06EA-8D47BDF4232B}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{94FAB817-A74E-40A3-B1F1-ED1CEB8AFE05}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="QFSW.QC.Demo.csproj">
       <Project>{33E97E55-80CB-E227-0DAB-5332C2095776}</Project>
       <Name>QFSW.QC.Demo</Name>
@@ -925,17 +888,13 @@
       <Project>{4FE2810D-9EDD-6CCB-DBDB-8B0B6BDB6442}</Project>
       <Name>QFSW.QC.Extras</Name>
     </ProjectReference>
-    <ProjectReference Include="Obi.Editor.csproj">
-      <Project>{A84F46EE-E688-FE6F-252E-62F3589F1313}</Project>
-      <Name>Obi.Editor</Name>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{F9D4795B-E7AA-71BC-5BF4-AA37633E0284}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Obi.csproj">
-      <Project>{924AA11F-D9CB-7388-3F73-CECFB28F9846}</Project>
-      <Name>Obi</Name>
-    </ProjectReference>
-    <ProjectReference Include="RopeMinikit.csproj">
-      <Project>{DB8C430F-4516-7D2E-BDF6-063AA9F4B430}</Project>
-      <Name>RopeMinikit</Name>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{44B6D9FF-E4A2-150C-C57A-0789ED51198E}</Project>
+      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

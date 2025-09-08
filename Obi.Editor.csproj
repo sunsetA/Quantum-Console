@@ -56,79 +56,79 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintMaskProperty.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiColorSmoothBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeChainRendererEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Collisions\ObiColliderEditor.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Constraints\ObiConstraintParametersDrawer.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\ObiOniInitialize.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeCursorEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintFilterMask.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintRadius.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiParticleEditorDrawing.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Utils\PreviewHelpers.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiActorBlueprintEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintFilterCategory.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeMeshRendererEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiPaintBrushEditorTool.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Utils\ObiRaycastHit.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeExtrudedRendererEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Rendering\ObiParticleRendererEditor.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Solver\ObiSolverEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeLineRendererEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintMass.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderMode.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeMesh.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Utils\BooleanPreference.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiPathSmootherEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeDistanceConstraints.cs" />
     <Compile Include="Assets\Obi\Editor\Common\ObiAboutWindow.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRodEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\ObiSettingsProvider.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiPathHandles.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\ObiBrushBase.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintSelected.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\IObiBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Collisions\ObiDistanceFieldEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Utils\ObiParticleAttachmentEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\IObiPropertyEditableProvider.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeShapeMatchingConstraints.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintColor.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeBendConstraints.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiMeshUtils.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Utils\ObiEditorUtils.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\Blueprints\ObiRopeBaseBlueprintEditor.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeParticles.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiColorPaintBrushMode.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\IgnoredBoneDrawer.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiMeshBasedActorBlueprintEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Utils\PreviewHelpers.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeExtrudedRendererEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeMesh.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiPathHandles.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\IObiPropertyEditableProvider.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiDraggableIcon.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiColorSmoothBrushMode.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeCursorEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeMeshRendererEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintMass.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Utils\BooleanPreference.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRodEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintSelected.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiMeshUtils.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiFloatPaintBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeAerodynamicConstraints.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiParticleSelectionEditorTool.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintBoolProperty.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\ObiEditorSettings.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiIntPaintBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintFloatProperty.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\ObiScreenSpaceBrush.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintColorProperty.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiFloatSmoothBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiBoneEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiTethersTool.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiBlueprintEditorTool.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiFloatAddBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\ObiRaycastBrush.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\BonePropertyCurveDrawer.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\IgnoredBoneDrawer.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiPathEditor.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiPropertyTextureEditorTool.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiSelectBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeTetherConstraints.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeSectionEditor.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintIntProperty.cs" />
-    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiDraggableIcon.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Collisions\ObiColliderEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiParticleEditorDrawing.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Utils\ObiRaycastHit.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Utils\ObiParticleAttachmentEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Utils\ObiEditorUtils.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintFloatProperty.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiBoneEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiSelectBrushMode.cs" />
     <Compile Include="Assets\Obi\Editor\ObiParticleSelection.cs" />
-    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiMeshBasedActorBlueprintEditor.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiMasterSlavePaintBrushMode.cs" />
-    <Compile Include="Assets\Obi\Editor\ObiStitcherEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintMaskProperty.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\ObiOniInitialize.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintRadius.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiPaintBrushEditorTool.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Rendering\ObiParticleRendererEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderMode.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintColor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeAerodynamicConstraints.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintColorProperty.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\ObiRaycastBrush.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiPathEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintFilterMask.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintFilterCategory.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeLineRendererEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiPathSmootherEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeDistanceConstraints.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\ObiScreenSpaceBrush.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiBlueprintEditorTool.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeTetherConstraints.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeChainRendererEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\ObiActorBlueprintEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\ObiBrushBase.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeShapeMatchingConstraints.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\Blueprints\ObiRopeBaseBlueprintEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiFloatSmoothBrushMode.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiTethersTool.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiFloatAddBrushMode.cs" />
     <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\ObiSettingsProvider.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\IObiBrushMode.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Collisions\ObiDistanceFieldEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiColorPaintBrushMode.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\ObiEditorSettings.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\BonePropertyCurveDrawer.cs" />
+    <Compile Include="Assets\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiPropertyTextureEditorTool.cs" />
+    <Compile Include="Assets\Obi\Editor\RopeAndRod\ObiRopeSectionEditor.cs" />
+    <Compile Include="Assets\Obi\Editor\ObiStitcherEditor.cs" />
     <Compile Include="Assets\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintProperty.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -830,23 +830,27 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Obi.csproj">
       <Project>{924AA11F-D9CB-7388-3F73-CECFB28F9846}</Project>
       <Name>Obi</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{29DCD08B-0E87-F2B0-28E6-3F9CBB65ED34}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{8CCB13C1-5292-57D1-D101-5602C65B7E26}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{2696DC74-8D61-1450-C7A8-E0EAEE51A411}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{8CCE9B9C-9948-42EF-EB2C-4CA811F1CE14}</Project>
+      <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
